@@ -11,3 +11,35 @@ The Volumetric Shit Compressor is a participant system for larps
 
 - `feature/<desc>` for features
 - `fix/<desc>` for bug fixes, typo corrections etc
+
+# Todo for 0.1.0:
+## API
+### Userland
+- [ ] Register a user to the system
+  - [ ] Dupe checking
+  - [ ] Validation
+  - [ ] Email validation
+  - [ ] SSO?
+  - [ ] ReCaptcha (or variants?)
+- [ ] Log in
+  - [ ] Forgot password
+  - [ ] 2FA?
+  - [ ] SSO?
+- [ ] Manual log out
+- [ ] List events (ACL?)
+- [ ] List my applications (and status)
+- [ ] List application queues for events (ACL)
+- [ ] "Apply" for an event
+## Admin
+- [ ] Create event
+- [ ] Cancel event
+  - [ ] Trigger notifications for already registered users?
+- [ ] Edit event
+- [ ] View applications
+- [ ] Approve applied user
+- [ ] Reject applied user
+## Other
+- [ ] Data model for content (ie "pages" and rich media etc)
+- [ ] ACL model for content, actions and users
+- [ ] Backend framework: Laravel, lumen, leaf, symfony, frameworkless?
+
